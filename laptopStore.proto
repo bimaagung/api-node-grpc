@@ -1,0 +1,26 @@
+syntax = 'proto3';
+
+package laptopStorePackage;
+
+service Laptop {
+    rpc addLaptop (LaptopItem) returns (LaptopItem);
+    rpc getLaptop (LaptopRequest) returns (LaptopItem);
+    rpc getLaptops (Empty) returns (LaptopList);
+}
+
+message LaptopItem {
+    int32 id = 1;
+    string merk = 2;
+    string type = 3;
+    int32 price = 4;
+}
+
+message LaptopRequest {
+    int32 id = 1;
+}
+
+message LaptopList {
+    repeated LaptopItem laptops = 1;
+}
+
+message Empty {}
