@@ -16,15 +16,13 @@ This project for training implementation remote procedure call framework with gr
 Request
 
     - change content :
-    `
     const laptop = {
-        merk: "Mackbook",
-        type: "M1 Pro",
+        merk: Mackbook,
+        type: M1 Pro,
         price: 21000000,
     };
-    `
 
-    - run terminal : `node createLaptop.client.js`
+    - run terminal : node createLaptop.client.js
 
 ```
 {
