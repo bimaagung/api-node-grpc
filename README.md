@@ -18,8 +18,8 @@ Request
     - change content :
     `
     const laptop = {
-        merk: 'Mackbook',
-        type: 'M1 Pro',
+        merk: "Mackbook",
+        type: "M1 Pro",
         price: 21000000,
     };
     `
