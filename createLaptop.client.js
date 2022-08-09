@@ -23,19 +23,3 @@ client.addLaptop(laptop, (err, response) => {
     console.log(JSON.stringify(response));
   }
 });
-
-// client.getLaptop({ id: 1 }, (err, response) => {
-//   if (err) {
-//     console.log(err);
-//   } else {
-//     console.log(JSON.stringify(response));
-//   }
-// });
-
-// client.getLaptops(null, (err, response) => {
-//   if (err) {
-//     console.log(err);
-//   } else {
-//     console.log(JSON.stringify(response));
-//   }
-// });
