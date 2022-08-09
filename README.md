@@ -15,14 +15,15 @@ This project for training implementation remote procedure call framework with gr
 
 Request
 
-    - change content :
-    const laptop = {
+- change content :
+`const laptop = {
         merk: Mackbook,
         type: M1 Pro,
         price: 21000000,
-    };
+    };`
 
-    - run terminal : node createLaptop.client.js
+- run terminal : `node createLaptop.client.js`
+
 
 ```
 {
@@ -33,11 +34,12 @@ Request
 }
 ```
 
+
 ### Get All Laptop
 
 Request
 
-    - run terminal : `node getAllLaptop.client.js`
+- run terminal : `node getAllLaptop.client.js`
 
 ```
 {
@@ -57,10 +59,9 @@ Request
 
 Request
 
-    - change laptop id :
-    `let laptop_id = 1;`
+- change laptop id : `let laptop_id = 1;`
 
-    - run terminal : `node getLaptopById.client.js`
+- run terminal : `node getLaptopById.client.js`
 
 ```
 {
