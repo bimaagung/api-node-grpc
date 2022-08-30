@@ -12,7 +12,7 @@ const client = new laptopStorePackage.Laptop(
 
 const laptop = {
   merk: 'Mackbook',
-  type: 'M1 Pro',
+  type: 'M1 Pro 2020',
   price: 21000000,
 };
 
